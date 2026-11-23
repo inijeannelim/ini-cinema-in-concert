@@ -211,3 +211,7 @@ nav, .hero, #contact, #receipts, #pfw {background:#FAF9F6!important;color:#24163
 #contact .cv-link {color:#241637!important;border-color:#7040C5!important}
 #pfw .timeline article {border-color:#9865F5!important}
 #earned h2 mark {background:none!important}
+
+/* Cinema in Concert readability refinements */
+.hero .new-hero-title{font-size:clamp(3rem,7.7vw,8.6rem);line-height:.99}
+#contact .pitch-heading h2{overflow-wrap:anywhere}
