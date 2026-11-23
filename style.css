@@ -215,3 +215,11 @@ nav, .hero, #contact, #receipts, #pfw {background:#FAF9F6!important;color:#24163
 /* Cinema in Concert readability refinements */
 .hero .new-hero-title{font-size:clamp(3rem,7.7vw,8.6rem);line-height:.99}
 #contact .pitch-heading h2{overflow-wrap:anywhere}
+
+/* Cinema in Concert hero: separate introduction from eyebrow */
+.hero .eyebrow{font-size:12px!important;line-height:1.5!important;letter-spacing:.14em!important;margin-bottom:20px!important}
+.hero .hero-intro{max-width:720px;margin:0 0 30px}
+.hero .hero-intro p{font-family:Arial,Helvetica,sans-serif!important;font-size:clamp(16px,1.6vw,21px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:normal!important;text-transform:none!important;color:#493D55!important;margin:0 0 12px!important;white-space:normal!important}
+.hero .hero-intro p:first-child{font-weight:700!important;color:#241637!important}
+.hero .new-hero-title{margin:18px 0 30px!important}
+@media(max-width:700px){.hero .hero-intro{margin-bottom:24px}.hero .new-hero-title{margin:14px 0 24px!important}}
